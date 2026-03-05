@@ -48,7 +48,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Q4
-        setup-command: pip install numpy scipy scikit-learn matplotlib pytest
+        setup-command: pip install numpy scipy sklearn matplotlib pytest
           pandas
         command: pytest test_AIstats_lab.py::test_q4_compare_gd_vs_analytical_close
           sklearn
