@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 import pandas as pd
-from scikit-learn import datasets
+from sklearn import datasets
 
 import AI_stats_lab as A
 
